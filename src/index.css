@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@theme {
+  --animate-popTop: popTop 1s ease-out forwards;
+  @keyframes popTop {
+    0% {
+      transform: translateY(5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-5rem);
+    }
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+:root {
+  scroll-behavior: smooth;
+}
