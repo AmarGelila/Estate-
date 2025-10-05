@@ -17,6 +17,7 @@ const translations = {
       ],
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      button: "learn more",
     },
     projects: {
       headingTitle: "Projects ",
@@ -129,6 +130,7 @@ const translations = {
       ],
       description:
         "يُعد نص 'لوريم إيبسوم' نصًا نموذجياً شائع الاستخدام في صناعة الطباعة والنشر. وقد أصبح هذا النص المعيار القياسي في هذا المجال منذ القرن السادس عشر، عندما قام أحد المطابع آنذاك باستنساخ صفحات من نص ما، ثم قام بتغيير ترتيب كلماته لإنشاء كتاب نماذج للخطوط.",
+      button: "اكتشف المزيد",
     },
     projects: {
       headingTitle: "مشاريع ",

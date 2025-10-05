@@ -30,9 +30,10 @@ function About() {
           </p>
           <button
             type="button"
-            className="bg-sky-600 mt-5 mx-auto inline-block md:mx-0 hover:bg-sky-400 transition-colors  hover:cursor-pointer text-white font-bold text-lg rounded-lg px-4 py-2"
+            className="bg-sky-600 mt-5 mx-auto uppercase
+             inline-block md:mx-0 hover:bg-sky-400 transition-colors  hover:cursor-pointer text-white font-bold text-lg rounded-lg px-4 py-2"
           >
-            Learn More
+            {translations[language].about.button}
           </button>
         </div>
       </div>
