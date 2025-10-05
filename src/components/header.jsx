@@ -18,7 +18,7 @@ function Header() {
     <header className="fixed top-0 start-0 w-full z-50">
       <div className="flex justify-between items-center py-2 px-4 bg-gradient-to-b from-gray-800 from-1% to-transparent to-100%">
         <div className="logo">
-          <img src="../../public/assets/logo.svg" alt="Estate Logo" />
+          <img src="/assets/logo.svg" alt="Estate Logo" />
         </div>
 
         <button

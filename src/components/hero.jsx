@@ -6,9 +6,9 @@ function Hero() {
   return (
     <section
       id="home"
-      className="h-screen bg-center bg-[url('assets/header_img.png')] flex items-center justify-center"
+      className="h-screen bg-center bg-[url('/assets/header_img.png')] flex items-center justify-center"
     >
-      <div className="pt-5 px-3 pb-5 translate-y-20 opacity-25 animate-popTop ">
+      <div className="pt-5 px-3 pb-5 translate-y-20 opacity-0 animate-popTop">
         <h1 className="text-white text-center text-8xl font-black">
           {translations[language].heroLeading}
         </h1>

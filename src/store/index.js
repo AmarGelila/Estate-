@@ -1,1 +1,1 @@
-export {default as useLanguage} from './language.js';
+export { default as useLanguage } from "./language.js";

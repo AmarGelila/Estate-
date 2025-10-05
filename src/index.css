@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @theme {
-  --animate-popTop: popTop 1s ease-out forwards;
+  --animate-popTop: popTop 1s 2s ease-out forwards;
   @keyframes popTop {
     0% {
       transform: translateY(5rem);
